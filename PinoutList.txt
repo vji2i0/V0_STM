@@ -1,0 +1,35 @@
+	STM32F100RBTxDiscovery
+PC0  -- X1 -> Input 1 (l298n)
+PC1  -- X2 -> Input 2 (l298n)
+PC2  -- X3 -> Input 3 (l298n)
+PC3  -- X4 -> Input 4 (l298n)
+PA2  -- UART_TX
+PA3  -- UART_RX
+PA4  -- Y1 -> Input 1 (l298n)
+PA5  -- Y2 -> Input 2 (l298n)
+PA6  -- Y3 -> Input 3 (l298n)
+PA7  -- Y4 -> Input 4 (l298n)
+PB0  -- EXTRUDER TEMPERATURE CONTROL (INPUT ADC)
+PB1  -- BED TEMPERATURE CONTROL (INPUT ADC)
+PC6  -- Z1 -> Input 1 (l298n)
+PC7  -- Z2 -> Input 2 (l298n)
+PC8  -- Z3 -> Input 3 (l298n)
+PC9  -- Z4 -> Input 4 (l298n)
+PA8  -- E1 -> Input 1 (l298n)
+PA9  -- E2 -> Input 2 (l298n)
+PA10 -- E3 -> Input 3 (l298n)
+PA11 -- E4 -> Input 4 (l298n)
+PC10 -- EXTRUDER TEMPERATURE CONTROL (OUTPUT)
+PC11 -- BED TEMPERATURE CONTROL (OUTPUT)
+PB6  -- ENABLE_X
+PB7  -- ENABLE_Y
+PB8  -- ENABLE_Z
+PB9  -- ENABLE_E
+
+	l298n
+Output 1 -> Motor 4
+Output 2 -> Motor 2
+Output 3 -> Motor 3
+Output 4 -> Motor 1
+Inputs -> see STM32F100RBTxDiscovery
+
